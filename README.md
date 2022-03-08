@@ -1,416 +1,148 @@
-Contribution: 2021-02-02 00:00
+<h1 align=center>
+<img src="https://res.cloudinary.com/nataliebravo/image/upload/v1630406853/NFT/banner_npzzzz.png" />
+</h1>
 
-Contribution: 2021-02-02 00:01
+<div align="center">
+  
+![License](https://img.shields.io/badge/license-MIT-737CA1?style=flat-square) 
+![Node_Badge](https://img.shields.io/badge/node-14.16.1-green?style=flat-square)
+![Npm_Badge](https://img.shields.io/badge/npm-6.14.12-yellow?style=flat-square)
+![React Badge](https://img.shields.io/badge/React-17.0.2-45b8d8?style=flat-square)
+![Solidity_Badge](https://img.shields.io/badge/Solidity-%5E8.0.0-363636?style=flat-square)
+![Truffle](https://img.shields.io/badge/Truffle-5.3.14-F0E8E0?style=flat-square)
+[![Made by NatalieBravo](https://img.shields.io/badge/made%20by-NatalieBravo-blueviolet?style=flat-square)](https://www.linkedin.com/in/nataliebravo/)
+</div>
 
-Contribution: 2021-02-02 00:02
+# Summary
 
-Contribution: 2021-02-02 00:03
+- [About](#about)
+- [Preview](#preview)
+- [Architecture and Client-side Flow](#architecture)
+- [Built with](#technologies)
+- [How to Use](#how-to-use)
+- [TODO](#todo)
+- [License](#license)
 
-Contribution: 2021-02-02 00:04
+<a id='about'/>
 
-Contribution: 2021-02-02 00:05
+## :information_source: About
 
-Contribution: 2021-02-02 00:06
+Galerie is a NFT Marketplace that enables the creation, sale, and purchase of digital art as NFTs.
 
-Contribution: 2021-02-02 00:07
 
-Contribution: 2021-02-03 00:00
+<a id='preview'/>
 
-Contribution: 2021-02-03 00:01
+## :framed_picture: Preview
 
-Contribution: 2021-02-03 00:02
+Check out how it looks:
 
-Contribution: 2021-02-03 00:03
+<p align="center">
+ <img alt="Homepage print"   src="https://res.cloudinary.com/nataliebravo/image/upload/v1630412771/NFT/galerie-homepage_kznhvx.png" >
+<p />
 
-Contribution: 2021-02-03 00:04
+<a id='architecture' />
 
-Contribution: 2021-02-05 00:00
+## :information_source: Architecture and Client-side Flow
 
-Contribution: 2021-02-05 00:01
+<p align="center">
+  <img alt="Client-Flow"src="https://res.cloudinary.com/nataliebravo/image/upload/v1626701427/NFT/client-side-flow_iqhq9a.png">
+<p />
 
-Contribution: 2021-02-05 00:02
+<p align="center">
+  <img alt="Architecture"src="https://res.cloudinary.com/nataliebravo/image/upload/v1626701440/NFT/arquitechure_hunzuw.png">
+<p />
 
-Contribution: 2021-02-05 00:03
 
-Contribution: 2021-02-05 00:04
+<a id='technologies'/>
 
-Contribution: 2021-02-05 00:05
+## :gear: Built With
 
-Contribution: 2021-02-05 00:06
+This project was developed with the following technologies:
 
-Contribution: 2021-02-05 00:07
+#### **Frontend** <sub><sup>React + JavaScript</sup></sub>
+  - [React](https://pt-br.reactjs.org/)
+  - [Axios](https://github.com/axios/axios)
+  - [Redux](https://redux.js.org/)
+  - [Web3.js](https://web3js.readthedocs.io/en/v1.3.4/)
+  - [Material UI](https://material-ui.com/pt/)
 
-Contribution: 2021-02-05 00:08
+#### **Backend** <sub><sup>Express</sup></sub>
+  - [Express](https://expressjs.com/pt-br/)
+ 
+#### **Blockchain and Smart Contracts** <sub><sup>Solidity</sup></sub>
+  - [Solidity](https://docs.soliditylang.org/)
+  - [Truffle](https://www.trufflesuite.com/)
+  - [Ganache](https://www.trufflesuite.com/ganache)
 
-Contribution: 2021-02-05 00:09
 
-Contribution: 2021-02-05 00:10
+<a id='how-to-use'/>
 
-Contribution: 2021-02-08 00:00
 
-Contribution: 2021-02-08 00:01
 
-Contribution: 2021-02-08 00:02
+### Requirements
 
-Contribution: 2021-02-08 00:03
+To run the application you'll need:
+* [Git](https://git-scm.com)
+* [Node](https://nodejs.org/)
+* [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
+* [Truffle](https://www.trufflesuite.com/)
+* [Ganache](https://www.trufflesuite.com/ganache)
+* Clone the repository:
+  * ```$ git clone https://github.com/BravoNatalie/NFT-Marketplace.git ```
 
-Contribution: 2021-02-08 00:04
 
-Contribution: 2021-02-08 00:05
+Now go to project folder and run:
 
-Contribution: 2021-02-08 00:06
 
-Contribution: 2021-02-08 00:07
+```bash
+$ cd NFT-Marketplace
 
-Contribution: 2021-02-08 00:08
+# install the dependencies
+$ yarn
 
-Contribution: 2021-02-08 00:09
+# run ganache
+$ ganache-cli
 
-Contribution: 2021-02-08 00:10
+# deploy de contracts on the blockchain
+$ truffle migrate
 
-Contribution: 2021-02-08 00:11
+# run the client-side
+$ cd client
+$ yarn
+$ yarn start
 
-Contribution: 2021-02-08 00:12
+# run the backend
+$ cd backend
+$ yarn
+$ yarn start
+```
 
-Contribution: 2021-02-08 00:13
+<a id='todo'/>
 
-Contribution: 2021-02-08 00:14
+## :page_with_curl: TODO
 
-Contribution: 2021-02-09 00:00
+There are some things to be done in the project:
+  - State persistence;
+  - Revise front-end call to the buy and sell functions on the blockchain;
+  - Error handling;
+  - NFT cards to reflect the true information of price coming from the blockchain.
 
-Contribution: 2021-02-09 00:01
+<a id='license'/>
 
-Contribution: 2021-02-09 00:02
+## :page_with_curl: License
 
-Contribution: 2021-02-11 00:00
+This project is under the **MIT license**. See the [LICENSE](https://github.com/BravoNatalie/NFT-Marketplace/blob/master/LICENSE) for more information.
 
-Contribution: 2021-02-11 00:01
 
-Contribution: 2021-02-11 00:02
+## :mailbox_with_mail: Get in touch!
 
-Contribution: 2021-02-11 00:03
-
-Contribution: 2021-02-11 00:04
-
-Contribution: 2021-02-11 00:05
-
-Contribution: 2021-02-11 00:06
-
-Contribution: 2021-02-11 00:07
-
-Contribution: 2021-02-12 00:00
-
-Contribution: 2021-02-12 00:01
-
-Contribution: 2021-02-12 00:02
-
-Contribution: 2021-02-12 00:03
-
-Contribution: 2021-02-12 00:04
-
-Contribution: 2021-02-12 00:05
-
-Contribution: 2021-02-12 00:06
-
-Contribution: 2021-02-12 00:07
-
-Contribution: 2021-02-12 00:08
-
-Contribution: 2021-02-12 00:09
-
-Contribution: 2021-02-12 00:10
-
-Contribution: 2021-02-12 00:11
-
-Contribution: 2021-02-12 00:12
-
-Contribution: 2021-02-12 00:13
-
-Contribution: 2021-02-12 00:14
-
-Contribution: 2021-02-15 00:00
-
-Contribution: 2021-02-15 00:01
-
-Contribution: 2021-02-16 00:00
-
-Contribution: 2021-02-16 00:01
-
-Contribution: 2021-02-16 00:02
-
-Contribution: 2021-02-16 00:03
-
-Contribution: 2021-02-16 00:04
-
-Contribution: 2021-02-16 00:05
-
-Contribution: 2021-02-16 00:06
-
-Contribution: 2021-02-16 00:07
-
-Contribution: 2021-02-19 00:00
-
-Contribution: 2021-02-19 00:01
-
-Contribution: 2021-02-26 00:00
-
-Contribution: 2021-02-26 00:01
-
-Contribution: 2021-02-26 00:02
-
-Contribution: 2021-02-26 00:03
-
-Contribution: 2021-02-26 00:04
-
-Contribution: 2021-02-26 00:05
-
-Contribution: 2021-02-26 00:06
-
-Contribution: 2021-03-01 00:00
-
-Contribution: 2021-03-02 00:00
-
-Contribution: 2021-03-02 00:01
-
-Contribution: 2021-03-02 00:02
-
-Contribution: 2021-03-02 00:03
-
-Contribution: 2021-03-02 00:04
-
-Contribution: 2021-03-02 00:05
-
-Contribution: 2021-03-02 00:06
-
-Contribution: 2021-03-02 00:07
-
-Contribution: 2021-03-02 00:08
-
-Contribution: 2021-03-02 00:09
-
-Contribution: 2021-03-02 00:10
-
-Contribution: 2021-03-02 00:11
-
-Contribution: 2021-03-02 00:12
-
-Contribution: 2021-03-02 00:13
-
-Contribution: 2021-03-02 00:14
-
-Contribution: 2021-03-03 00:00
-
-Contribution: 2021-03-03 00:01
-
-Contribution: 2021-03-03 00:02
-
-Contribution: 2021-03-03 00:03
-
-Contribution: 2021-03-03 00:04
-
-Contribution: 2021-03-03 00:05
-
-Contribution: 2021-03-03 00:06
-
-Contribution: 2021-03-03 00:07
-
-Contribution: 2021-03-03 00:08
-
-Contribution: 2021-03-05 00:00
-
-Contribution: 2021-03-05 00:01
-
-Contribution: 2021-03-05 00:02
-
-Contribution: 2021-03-05 00:03
-
-Contribution: 2021-03-08 00:00
-
-Contribution: 2021-03-08 00:01
-
-Contribution: 2021-03-08 00:02
-
-Contribution: 2021-03-08 00:03
-
-Contribution: 2021-03-10 00:00
-
-Contribution: 2021-03-10 00:01
-
-Contribution: 2021-03-10 00:02
-
-Contribution: 2021-03-10 00:03
-
-Contribution: 2021-03-10 00:04
-
-Contribution: 2021-03-10 00:05
-
-Contribution: 2021-03-10 00:06
-
-Contribution: 2021-03-10 00:07
-
-Contribution: 2021-03-10 00:08
-
-Contribution: 2021-03-10 00:09
-
-Contribution: 2021-03-10 00:10
-
-Contribution: 2021-03-10 00:11
-
-Contribution: 2021-03-10 00:12
-
-Contribution: 2021-03-12 00:00
-
-Contribution: 2021-03-12 00:01
-
-Contribution: 2021-03-12 00:02
-
-Contribution: 2021-03-12 00:03
-
-Contribution: 2021-03-12 00:04
-
-Contribution: 2021-03-12 00:05
-
-Contribution: 2021-03-12 00:06
-
-Contribution: 2021-03-12 00:07
-
-Contribution: 2021-03-12 00:08
-
-Contribution: 2021-03-12 00:09
-
-Contribution: 2021-03-12 00:10
-
-Contribution: 2021-03-12 00:11
-
-Contribution: 2021-03-12 00:12
-
-Contribution: 2021-03-12 00:13
-
-Contribution: 2021-03-15 00:00
-
-Contribution: 2021-03-15 00:01
-
-Contribution: 2021-03-15 00:02
-
-Contribution: 2021-03-15 00:03
-
-Contribution: 2021-03-15 00:04
-
-Contribution: 2021-03-16 00:00
-
-Contribution: 2021-03-16 00:01
-
-Contribution: 2021-03-16 00:02
-
-Contribution: 2021-03-19 00:00
-
-Contribution: 2021-03-19 00:01
-
-Contribution: 2021-03-19 00:02
-
-Contribution: 2021-03-19 00:03
-
-Contribution: 2021-03-19 00:04
-
-Contribution: 2021-03-23 00:00
-
-Contribution: 2021-03-24 00:00
-
-Contribution: 2021-03-24 00:01
-
-Contribution: 2021-03-24 00:02
-
-Contribution: 2021-03-24 00:03
-
-Contribution: 2021-03-24 00:04
-
-Contribution: 2021-03-24 00:05
-
-Contribution: 2021-03-24 00:06
-
-Contribution: 2021-03-25 00:00
-
-Contribution: 2021-03-25 00:01
-
-Contribution: 2021-03-25 00:02
-
-Contribution: 2021-03-25 00:03
-
-Contribution: 2021-03-26 00:00
-
-Contribution: 2021-03-26 00:01
-
-Contribution: 2021-03-26 00:02
-
-Contribution: 2021-03-29 00:00
-
-Contribution: 2021-03-29 00:01
-
-Contribution: 2021-03-29 00:02
-
-Contribution: 2021-03-29 00:03
-
-Contribution: 2021-03-29 00:04
-
-Contribution: 2021-03-29 00:05
-
-Contribution: 2021-03-29 00:06
-
-Contribution: 2021-03-29 00:07
-
-Contribution: 2021-03-29 00:08
-
-Contribution: 2021-03-31 00:00
-
-Contribution: 2021-03-31 00:01
-
-Contribution: 2021-03-31 00:02
-
-Contribution: 2021-03-31 00:03
-
-Contribution: 2021-03-31 00:04
-
-Contribution: 2021-03-31 00:05
-
-Contribution: 2021-03-31 00:06
-
-Contribution: 2021-03-31 00:07
-
-Contribution: 2021-03-31 00:08
-
-Contribution: 2021-03-31 00:09
-
-Contribution: 2021-03-31 00:10
-
-Contribution: 2021-03-31 00:11
-
-Contribution: 2021-03-31 00:12
-
-Contribution: 2021-03-31 00:13
-
-Contribution: 2021-03-31 00:14
-
-Contribution: 2021-04-01 00:00
-
-Contribution: 2021-04-01 00:01
-
-Contribution: 2021-04-01 00:02
-
-Contribution: 2021-04-01 00:03
-
-Contribution: 2021-04-01 00:04
-
-Contribution: 2021-04-01 00:05
-
-Contribution: 2021-04-01 00:06
-
-Contribution: 2021-04-01 00:07
-
-Contribution: 2021-04-01 00:08
-
-Contribution: 2021-04-01 00:09
-
-Contribution: 2021-04-01 00:10
-
-Contribution: 2021-04-01 00:11
-
+<p align="center">
+<a href="https://www.linkedin.com/in/nataliebravo/" target="_blank" >
+  <img alt="Linkedin - Natalie Bravo" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+</a>
+<a href="mailto:natalie.bravo@ice.ufjf.br" target="_blank" >
+  <img alt="Email - Natalie Bravo" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+</a> 
+<br/>
+  Made with :coffee: and ❤️ by <b>Natalie Bravo</b>.
+<p/>
